@@ -11,22 +11,25 @@ body{
 
 /* Fine Common */
 
+/* Prima riga product */
 .container{
-    width: 100%;
-    margin: auto;
+    width: 80%;
+    margin: 130px auto;
 }
 
 .row{
-    margin: 50px;
+    margin: 50px 0px;
 }
 
-div #product{
+/* Primo prodotto */
+#product{
     position: relative;
     display: inline-block;
 }
 
-#product img{
+img{
     width: 50%;
+    height: auto;
 }
 
 .discount{
@@ -40,9 +43,13 @@ div #product{
 }
 
 .discount.discountred{
-    background-color: red;   
+    background-color: red; 
+    z-index: 1;
 }
 
+.discount.discountgreen{
+    background-color: green;   
+}
 
 div.heart{
     height: 50px;
@@ -87,3 +94,5 @@ h1{
     text-decoration: line-through;
     color: grey;
 }
+/* Fine Primo prodotto */
+/* Fine Prima riga product */
