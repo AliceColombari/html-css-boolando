@@ -22,7 +22,7 @@ body{
 }
 
 /* Primo prodotto */
-#product{
+.product{
     position: relative;
     display: inline-block;
     width: calc(100% / 3);
@@ -35,12 +35,13 @@ img{
 
 .etichette{
     position: relative;
+    
 }
 
 .discount{
     position: absolute;
     left: 0px;
-    bottom: 70px;
+    bottom: 30px;
     font-size: 14px;
     font-weight: bold;
     color: #fff;
@@ -54,6 +55,7 @@ img{
 
 .discount.discountgreen{
     background-color: green;  
+    margin-left: 50px;
 }
 
 div.heart{
@@ -73,7 +75,7 @@ div.heart{
 }
 
 
-#caratteristiche{
+.caratteristiche{
     margin-top: 10px;
 }
 
