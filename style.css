@@ -55,12 +55,12 @@ img{
 }
 
 .discount.discountred{
-    background-color: red; 
+    background-color: #ff0000; 
     z-index: 1;
 }
 
 .discount.discountgreen{
-    background-color: green;  
+    background-color: #028759;  
 }
 
 div.heart{
@@ -88,7 +88,7 @@ div.heart{
 
 p{
     font-size: 12px;
-    color: grey;
+    color: rgb(82, 82, 82);
 }
 
 h1{
@@ -102,12 +102,12 @@ h1{
 
 .prezzo.originale{
     font-weight: bold;
-    color: red;
+    color: #ff0000;
 }
 
 .prezzo.sbarrato{
     text-decoration: line-through;
-    color: grey;
+    color: rgb(82, 82, 82);
 }
 /* Caratteristiche */
 /* Fine Primo prodotto */
