@@ -111,5 +111,20 @@ h1{
 /* Caratteristiche */
 /* Fine Primo prodotto */
 
+/* hover */
+.immagine1{
+    display: block;
+}
+.immagine2{
+    display: none;
+}
 
+img:hover .immagine1{
+    display: none;
+}
+
+img:hover .immagine2{
+    display: block;
+    z-index: 2;
+}
 /* Fine Prima riga product */
