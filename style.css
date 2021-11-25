@@ -1,0 +1,12 @@
+/* Inizio Common */
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Fine Common */
