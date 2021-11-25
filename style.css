@@ -10,3 +10,53 @@ body{
 }
 
 /* Fine Common */
+
+.container{
+    width: 100%;
+    margin: auto;
+}
+
+.row{
+    margin: 50px;
+}
+
+div #product{
+    position: relative;
+    display: inline-block;
+}
+
+#product img{
+    width: 50%;
+}
+
+.discount{
+    position: absolute;
+    left: 0px;
+    bottom: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    padding: 7px;
+}
+
+.discount.discountred{
+    background-color: red;   
+}
+
+
+div.heart{
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+}
+
+.heart{
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top:30px;
+    font-size: 30px;
+    line-height: 50px;
+}
+
