@@ -14,7 +14,7 @@ body{
 /* Prima riga product */
 .container{
     width: 80%;
-    margin: 130px auto;
+    margin: 100px auto;
 }
 
 .row{
@@ -24,26 +24,25 @@ body{
 
 /* Primo prodotto */
 .product{
-    /* position: relative; */
     display: inline-block;
     width: calc(100% / 3);
+    padding: 5px;
 }
-
+/* Immagine - etichette - cuore */
 .frame{
     position: relative;
     width: 100%;
 }
 
 img{
-    width: 50%;
+    width: 100%;
     height: auto;
 }
 
 .etichette{
     position: absolute;
     left: 0px;
-    bottom: 70px;
-    
+    bottom: 30px;  
 }
 
 .discount{
@@ -61,7 +60,6 @@ img{
 
 .discount.discountgreen{
     background-color: green;  
-    /* margin-left: 50px; */
 }
 
 div.heart{
@@ -76,13 +74,15 @@ div.heart{
     vertical-align: middle;
     position: absolute;
     top:30px;
+    right: 0px;
     font-size: 30px;
     line-height: 50px;
 }
-
-
+/* Fine Immagine - etichette - cuore */
+/* Caratteristiche */
 .caratteristiche{
     margin-top: 10px;
+    margin-bottom: 50px;
 }
 
 p{
@@ -108,5 +108,8 @@ h1{
     text-decoration: line-through;
     color: grey;
 }
+/* Caratteristiche */
 /* Fine Primo prodotto */
+
+
 /* Fine Prima riga product */
