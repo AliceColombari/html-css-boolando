@@ -18,14 +18,20 @@ body{
 }
 
 .row{
-    margin: 50px 0px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 /* Primo prodotto */
 .product{
-    position: relative;
+    /* position: relative; */
     display: inline-block;
     width: calc(100% / 3);
+}
+
+.frame{
+    position: relative;
+    width: 100%;
 }
 
 img{
@@ -34,14 +40,14 @@ img{
 }
 
 .etichette{
-    position: relative;
+    position: absolute;
+    left: 0px;
+    bottom: 70px;
     
 }
 
 .discount{
-    position: absolute;
-    left: 0px;
-    bottom: 30px;
+    display: inline-block;
     font-size: 14px;
     font-weight: bold;
     color: #fff;
@@ -55,7 +61,7 @@ img{
 
 .discount.discountgreen{
     background-color: green;  
-    margin-left: 50px;
+    /* margin-left: 50px; */
 }
 
 div.heart{
