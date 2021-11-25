@@ -25,6 +25,7 @@ body{
 #product{
     position: relative;
     display: inline-block;
+    width: calc(100% / 3);
 }
 
 img{
@@ -32,10 +33,14 @@ img{
     height: auto;
 }
 
+.etichette{
+    position: relative;
+}
+
 .discount{
     position: absolute;
     left: 0px;
-    bottom: 30px;
+    bottom: 70px;
     font-size: 14px;
     font-weight: bold;
     color: #fff;
@@ -48,7 +53,7 @@ img{
 }
 
 .discount.discountgreen{
-    background-color: green;   
+    background-color: green;  
 }
 
 div.heart{
@@ -66,6 +71,7 @@ div.heart{
     font-size: 30px;
     line-height: 50px;
 }
+
 
 #caratteristiche{
     margin-top: 10px;
